@@ -9,11 +9,12 @@ public class gTasksTerm {
     }
 
     public static boolean isNumber(String task) {
-        return task.matches("/d+");
+        return task.matches("\\d+");
     }
 
     public static int getTaskIndex(String taskName) {
         //TODO Get Index Of Task From Name
+        return 0;
     }
 
     public static void completeTask(int taskIndex) {
